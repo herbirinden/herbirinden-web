@@ -1,21 +1,8 @@
-export default function Home() {
+export default function Ev() {
   return (
-    <main style={{ textAlign: "center", marginTop: "50px" }}>
-      {/* Başlık */}
-      <h1>Herbirinden.com</h1>
-
-      {/* Logo */}
-      <img 
-        src="/logo.png" 
-        alt="Herbirinden Logo" 
-        width="300" 
-        style={{ marginTop: "20px" }}
-      />
-
-      {/* Alt yazı */}
-      <p style={{ marginTop: "20px", fontSize: "20px" }}>
-        Çok yakında hem web’de, hem de mobil’deyiz 🚀
-      </p>
-    </main>
+    <div style={{ textAlign: "center", marginTop: "50px" }}>
+      <h1>Kategoriler Yükleniyor...</h1>
+      <p>Sistemin altyapısı kuruldu, şimdi verileri bağlıyoruz.</p>
+    </div>
   );
 }
